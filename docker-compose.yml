@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  pact-mock-service:
+    image: pactfoundation/pact-mock-service
+    ports:
+      - "80:80"
