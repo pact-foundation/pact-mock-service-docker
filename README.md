@@ -11,7 +11,7 @@ Test that mock service is running
     $ DOCKER_MACHINE_IP=$(docker-machine ip default) # or however you like to do it
     $ curl -H "X-Pact-Mock-Service: true" http://${DOCKER_MACHINE_IP}
 
-# Get pact contents
+Get pact contents
 
     $ curl  -X POST \
             -H "X-Pact-Mock-Service: true" \
