@@ -12,4 +12,4 @@ RUN apk add --no-cache --virtual build-dependencies build-base && \
 WORKDIR /app
 
 EXPOSE 80
-CMD bundle exec pact-mock-service service --host 0.0.0.0 --port 80
+CMD bundle exec pact-mock-service service --host 0.0.0.0 --port 80 --pact-dir ./pacts
