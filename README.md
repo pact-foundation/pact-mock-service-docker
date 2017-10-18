@@ -15,9 +15,9 @@ Get pact contents
 
     $ curl  -X POST \
             -H "X-Pact-Mock-Service: true" \
-            -H "Content-Type: application/json" -d '{"consumer" : {"name": "Consumer Name"}, "provider": {"name": "Provider Name"}, "pact_dir": "/tmp/pacts"}' \
+            -H "Content-Type: application/json" -d '{"consumer" : {"name": "Consumer Name"}, "provider": {"name": "Provider Name"}}' \
             http://${DOCKER_CONTAINER_IP}/pact
 
-For examples of the other commands, see this [gist](https://gist.github.com/bethesque/9d81f21d6f77650811f4)
+For examples of the other commands, see this [script](https://github.com/pact-foundation/pact-mock_service/blob/master/script/example.sh)
 
 [dockerhub]: https://hub.docker.com/r/pactfoundation/pact-mock-service
