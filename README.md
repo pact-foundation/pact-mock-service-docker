@@ -1,4 +1,4 @@
-This is deprecated in favour of `pactfoundation/pact-cli`. It is no longer kept up to date.
+This is deprecated in favour of [`pactfoundation/pact-cli`](https://hub.docker.com/r/pactfoundation/pact-cli). It is no longer kept up to date.
 
 # Pact Mock Service Docker
 
