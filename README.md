@@ -1,3 +1,5 @@
+This is deprecated in favour of `pactfoundation/pact-cli`. It is no longer kept up to date.
+
 # Pact Mock Service Docker
 
 Docker image running the pact mock service. You can pull the latest image from [Dockerhub][dockerhub].
